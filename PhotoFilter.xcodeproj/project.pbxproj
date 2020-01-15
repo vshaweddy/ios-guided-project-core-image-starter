@@ -26,6 +26,7 @@
 		BD99072723957067009F7CDB /* PhotoFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFilterViewController.swift; sourceTree = "<group>"; };
 		BD99072823957067009F7CDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BD99072923957067009F7CDB /* UIImage+Scaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Scaling.swift"; sourceTree = "<group>"; };
+		E36144A623CEBC18007D6DF5 /* FilterTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterTest.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		BD99071223957038009F7CDB /* PhotoFilter */ = {
 			isa = PBXGroup;
 			children = (
+				E36144A623CEBC18007D6DF5 /* FilterTest.playground */,
 				BD99071323957038009F7CDB /* AppDelegate.swift */,
 				BD99071523957038009F7CDB /* SceneDelegate.swift */,
 				BD99072823957067009F7CDB /* Main.storyboard */,
