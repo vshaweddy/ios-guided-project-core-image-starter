@@ -17,10 +17,10 @@ extension UIImage {
         let originalAspectRatio = self.size.width/self.size.height
         var correctedSize = size
         
-        if correctedSize.height > correctedSize.width*originalAspectRatio {
-            correctedSize.height = correctedSize.width*originalAspectRatio
+        if correctedSize.width > correctedSize.width*originalAspectRatio {
+            correctedSize.width = correctedSize.width*originalAspectRatio
         } else {
-            correctedSize.width = correctedSize.height/originalAspectRatio
+            correctedSize.height = correctedSize.height/originalAspectRatio
         }
         
         return UIGraphicsImageRenderer(size: correctedSize, format: imageRendererFormat).image { context in
